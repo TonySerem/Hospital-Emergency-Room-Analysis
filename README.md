@@ -65,7 +65,7 @@ Descriptive analysis of each metric and visualization, including patterns, anoma
 - Changed the first row to be headers
 - Merged the patient first name initial and patient last name into patient name column
 - Replaced F with Female and M with Male in the Patient Gender column
-- Added a conditional column called patient admission flag 2  to group patient admission flag into: true = 1 and else = 0 and removed the original patient admission flag column
+- Added a conditional column called patient admission flag 2  to group patient admission flag into: 1 = true and else = false and removed the original patient admission flag column
 
 ## DAX Measures
 - Average wait time
