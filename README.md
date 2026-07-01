@@ -13,91 +13,127 @@ Gender Analysis: Visualize patient distribution by gender.
 Racial Demographics: Analyze patient data by race.
 Time Analysis: Assess patient volume by day and hour.
 Key Metrics:
--	Number of Patients: 469
--	Average Wait Time: 35.0 minutes
--	Patient Satisfaction Score: 4.6
--	Number of Patients Referred: 185
-
-## 2. Attrition by Job Role and Employee Education
-Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
-Layout: The dashboard is divided into three main sections: Attrition by Job Role, Attrition by Employee Working Years, Attrition by Employees Education.
-Key Metrics:
--	Total number of Employees: 2,925
--	Attrition Rate: 17%
-<img width="869" height="477" alt="Dashboard 2" src="https://github.com/user-attachments/assets/a5206d6c-7aa0-4d62-8f91-87efaff467c5" />
+-	Number of Patients
+-	Average Wait Time
+-	Patient Satisfaction Score
+-	Number of Patients Referred
+  
+<img width="910" height="505" alt="Monthly View Dashboard Screenshot" src="https://github.com/user-attachments/assets/c15e8ac1-434a-4cf4-b96d-5a2786c72f7d" />
 
 
-## 3. Age And Performance Attrition
-Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
-Layout: The dashboard is divided into two main sections: Attrition by Age bracket and Gender and Attrition by Employee Performance.
-Key Metrics:
--	Total number of Employees: 2,925
--	Attrition Rate: 17%
-<img width="881" height="474" alt="Dashboard 3" src="https://github.com/user-attachments/assets/21989eb4-11db-4ebe-b7a5-f21b5e2fc73b" />
+## 2. Consolidated View Dashboard
+Objective: Provide a holistic summary of hospital performance from a selected date range.
+Charts to develop:
+Layout: Similar to monthly view dashboard, but aggregated over a customizable date range for broader insights and trend analysis.
 
-  ## Tools Used
+<img width="916" height="507" alt="Consolidated view Dashboard Screenshot" src="https://github.com/user-attachments/assets/4ee54359-98b3-4eb1-a0f1-9e382c039907" />
+
+
+## 3. Patient Details Dashboard
+Objective: Offer granular insights into patient-level data to enable detailed analysis and troubleshooting.
+Layout: A grid displaying essential fields:
+Patient ID 
+Patient Full Name
+Gender
+Age 
+Admission Date 
+Patient Race
+Wait Time 
+Department Referral
+Admission Status
+
+<img width="917" height="497" alt="Patient Details Dashboard" src="https://github.com/user-attachments/assets/1fcd9a7a-9732-4016-bebc-2e94c82cc273" />
+
+## 4. Key Takeaways
+
+Objective: Summarize the findings from all dashboards to provide clear and actionable insights from stakeholders.
+Layout:
+Descriptive analysis of each metric and visualization, including patterns, anomalies, and actionable recommendations to optimize emergency room operations and patients care.
+
+<img width="916" height="499" alt="KeyTakeaways Dashboard Screenshot" src="https://github.com/user-attachments/assets/25dd297b-ad6d-46c4-8531-447b5cd4860e" />
+
+ ## Tools Used
 - Power Bi
 - Power Query
 - DAX
 
 ## Data Preparation - Power Query
-- Removed top rows
 - Changed the first row to be headers
-- Removed columns 40-49 which had no meaningful information
-- Added a conditional column called distance status to group Employee distance to work into: Near by, Far and Very Far
-- Added a conditional column called Employee Working Years to group Employee Working Years into: between 0-10, 11-20 and 21-30
-- Added a conditional column called Employee Satisfaction to group Employee Satisfaction into: Very Satissfied, Satissfied and Dissatisfied
-- Added a conditional column called Age Group to group Employee's Age into: 18-25, 26-35, 36-45, 46-55 and 56 plus
+- Merged the patient first name initial and patient last name into patient name column
+- Replaced F with Female and M with Male in the Patient Gender column
+- Added a conditional column called patient admission flag 2  to group patient admission flag into: true = 1 and else = 0 and removed the original patient admission flag column
 
 ## DAX Measures
-- Total Employees
-- Total Attrition
-- Inactive Employees
-- Low Performance Employees
-- High Performance Employees
-- Department Attrition
+- Average wait time
+- Number of patients
+- Number of patients referred
+- Patient satisfaction score
+- Created Date Table
   
 ## Objectives
-- The primary purpose of this HR attrition analysis is to identify the factors driving employee departures, predict attrition trends, and implement evidence-based strategies that improve employee retention, reduce costs, and strengthen overall organizational performance
+- To enhance overall efficiency and provide actionable insights into Emergency room performance.
 
 ## Analysis
-- Key performance indicators (KPI's); Total Number of Employees and Attrition Rate
-- Attrition by Employee's Working Years
-- Attrition by Employee Satisfaction
-- Attrition by Distance to Work
-- Attriton by Department
-- Attrition BY Gender
-- Attrition by Job Role
-- Attrition by Employee Working Years
-- Attrition by Employees Education
+-	Key performance indicators (KPI's): Number of Patients, Average Wait Time, Patient Satisfaction Score and Number of Patients Referred.
+-	Patient Admission Status: Track admitted vs non admitted patients.
+- Patient Age Distribution: Group patients by 10-year age interval.
+- Department Referrals: Analyze referral trends across different departments.
+- Timeliness: Measure the percentage of patients seen within 30 minutes.
+- Gender Analysis: Visualize patient distribution by gender.
+- Racial Demographics: Analyze patient data by race.
+- Time Analysis: Assess patient volume by day and hour.
 
 ## Filters
-- Gender
+- Month Year
+- Date range
   
 ## Key Findings and Insights
-- Total Number of Employees: 2,925
-- Attrition Rate: 17%
-- Attrition by Employee's Working Years:
-  Employees with 0–10 years of total working experience had the highest attrition (378), while employees with 31 or more years of working experience had the lowest attrition (11).
-- Attrition by Employee Satisfaction:
-  Dissatisfied employees had the highest attrition (151), followed by Very Satisfied employees (134), Very Dissatisfied employees (111), and Satisfied employees (96).
-- Attrition by Distance to Work:
-  Dissatisfied employees had the highest attrition (151), followed by Very Satisfied employees (134), Very Dissatisfied employees (111), and Satisfied employees (96).
-- Attrition by Department:
-  The Research & Development (R&D) department recorded the highest attrition (282), followed by Sales (186) and Human Resources (HR) (24)
-- Attrition by Gender:
-  Male employees accounted for 63% of total attrition, while female employees accounted for 37%
-- Attrition by Job Role:
- Among the job roles, Laboratory Technician had the highest attrition (130), while Research Director had the lowest attrition (5).
-- Attrition by Employee's Education:
- Employees with a Bachelor's degree had the highest attrition (204), while employees with an Associate degree had the lowest attrition (93).
-- Attrition by Age Bucket:
-  Employees between the age of 26-35 years had the highest attrition (242), while Employees with the age of 36 plus years had the lowest attrition (17).
+- The Emergency Room Dataset covering a period of 19 months, records a total of 9,216 unique patients
+- Patient Wait Time Satisfaction: 
+The average wait time was approximately 35.3 minutes, indicating a need for improvement to enhance patient flow. The Average satisfaction was 5.0 out of 10 suggesting moderate satisfaction and highlighting areas for improving patient experiences.
+- Department Referrals:
+A significant number of patients (5400) did not require referrals. Among those referred the most common were General Practice (1840 cases)  and orthopedics (995 cases), followed by physiotherapy  (276 cases) and cardiology (248 cases)
+- Peak Busy Periods:
+The busiest days were Mondays (1377 patients), Saturdays (1322 patients) and Tuesdays (1318 patients). The busiest hours were 11 AM, 7 PM, 1 PM, and 11 PM indicating need of ample staffing during these periods.
+- Patient Demographics:
+Age Groups: Adults (30-39 years) formed a large group (1200 patients), followed by young adults (20 -29 years) with 1188 patients. Other significant groups included middle aged as well (40 - 50 years).
+- Race Distribution:
+The largest racial group was white (2571), followed by African American (1951), Multiracial (1557), and Asian (1060) patients. A significant number of patients (1030) declined ti identify their race.
+- Admission Patterns
+Nearly half of the patients (4612) were admitted while the rest (4604) were treated and released.
   
 ## Conclusion
-The HR attrition analysis revealed that the organization has an overall attrition rate of 17%, with employee turnover being concentrated within specific groups rather than evenly distributed across the workforce. Employees with 0–10 years of working experience, those aged 26–35 years, and employees in the Research & Development (R&D) department experienced the highest levels of attrition. Additionally, Laboratory Technicians, employees holding a Bachelor's degree, and male employees accounted for a significant proportion of employee departures.
-
-The analysis also indicates that employee satisfaction is an important factor influencing retention, with dissatisfied employees recording the highest attrition. However, the relatively high turnover among very satisfied employees suggests that factors beyond satisfaction—such as career growth opportunities, compensation, workload, or external job opportunities—may also contribute to employees leaving the organization.
+The dataset reveals that high patient volumes, moderate satisfaction levels, and common referrals to general practice and orthopedics. Mondays and late nights to early morning hours are particularly busy. The patient demographics show a diverse age and racial composition with nearly equal numbers of admitted and non admitted patients. These insights can help optimize resource allocation and improve patient care in the emergency room.
 
  ## Recommendations
-To improve retention, the organization should prioritize retention strategies for high-risk employee groups by strengthening career development programs, reviewing compensation and benefits, enhancing employee engagement, and conducting targeted stay and exit interviews. Focusing on these areas will help reduce employee turnov
+- Reduce Patient Wait Times:
+Review and optimize patient triage and registration processes to reduce the average wait time of 35.3 minutes.
+Introduce fast-track services for patients with minor conditions to improve patient flow and decrease congestion.
+
+- Improve Patient Satisfaction:
+Conduct patient feedback surveys to identify the main causes of the moderate satisfaction score (5.0/10).
+Enhance communication by providing patients with regular updates on expected waiting times and treatment progress.
+
+- Optimize Staffing During Peak Periods:
+Increase staffing levels on Mondays, Tuesdays, and Saturdays, as well as during the busiest hours (11 AM, 1 PM, 7 PM, and 11 PM).
+Use historical patient volume data to create demand-based staff schedules.
+
+- Strengthen Coordination with High-Demand Departments
+Improve collaboration with General Practice and Orthopedics, which receive the highest number of referrals.
+Consider allocating additional specialists or establishing streamlined referral pathways to reduce delays.
+
+- Plan Services Around Patient Demographics:
+Ensure adequate resources and services are available for adults aged 20–39 years, who represent the largest patient population.
+Develop targeted health education and preventive care initiatives for common conditions affecting these age groups.
+
+- Enhance Capacity Planning:
+Since admissions and discharges occur in nearly equal proportions, maintain adequate bed availability while ensuring efficient discharge planning to prevent overcrowding.
+Regularly monitor occupancy rates to support effective resource allocation.
+
+- Improve Data Collection Practices:
+Encourage patients to voluntarily provide demographic information, including race, to support more comprehensive analyses of healthcare utilization and equity.
+Periodically review data quality to ensure accurate reporting and informed decision-making.
+
+- Implement Continuous Performance Monitoring:
+Develop a dashboard to track key performance indicators (KPIs) such as patient wait time, satisfaction scores, referral trends, admission rates, and patient volumes.
+Regular monitoring will enable hospital management to identify trends early and implement timely operational improvements.
