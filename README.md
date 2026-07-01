@@ -102,7 +102,7 @@ The busiest days were Mondays (1377 patients), Saturdays (1322 patients) and Tue
 - Patient Demographics:
 Age Groups: Adults (30-39 years) formed a large group (1200 patients), followed by young adults (20 -29 years) with 1188 patients. Other significant groups included middle aged as well (40 - 50 years).
 - Race Distribution:
-The largest racial group was white (2571), followed by African American (1951), Multiracial (1557), and Asian (1060) patients. A significant number of patients (1030) declined ti identify their race.
+The largest racial group was white (2571), followed by African American (1951), Multiracial (1557), and Asian (1060) patients. A significant number of patients (1030) declined to identify their race.
 - Admission Patterns
 Nearly half of the patients (4612) were admitted while the rest (4604) were treated and released.
   
