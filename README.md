@@ -111,7 +111,9 @@ The dataset reveals that high patient volumes, moderate satisfaction levels, and
 
  ## Recommendations
 - Reduce Patient Wait Times:
+- 
 Review and optimize patient triage and registration processes to reduce the average wait time of 35.3 minutes.
+
 Introduce fast-track services for patients with minor conditions to improve patient flow and decrease congestion.
 
 - Improve Patient Satisfaction:
