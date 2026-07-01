@@ -11,8 +11,9 @@ Layout:
 - Department Referrals: Analyze referral trends across different departments.
 - Timeliness: Measure the percentage of patients seen within 30 minutes.
 - Gender Analysis: Visualize patient distribution by gender.
-- Racial Demographics: Analyze patient data by race.-Time Analysis: Assess patient volume by day and hour.
-- 
+- Racial Demographics: Analyze patient data by race.
+- Time Analysis: Assess patient volume by day and hour.
+
 Key Metrics:
 -	Number of Patients
 -	Average Wait Time
