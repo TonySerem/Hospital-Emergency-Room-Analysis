@@ -24,7 +24,7 @@ Key Metrics:
 
 ## 2. Consolidated View Dashboard
 Objective: Provide a holistic summary of hospital performance from a selected date range.
-Charts to develop:
+
 Layout: Similar to monthly view dashboard, but aggregated over a customizable date range for broader insights and trend analysis.
 
 <img width="916" height="507" alt="Consolidated view Dashboard Screenshot" src="https://github.com/user-attachments/assets/4ee54359-98b3-4eb1-a0f1-9e382c039907" />
@@ -32,22 +32,24 @@ Layout: Similar to monthly view dashboard, but aggregated over a customizable da
 
 ## 3. Patient Details Dashboard
 Objective: Offer granular insights into patient-level data to enable detailed analysis and troubleshooting.
+
 Layout: A grid displaying essential fields:
-Patient ID 
-Patient Full Name
-Gender
-Age 
-Admission Date 
-Patient Race
-Wait Time 
-Department Referral
-Admission Status
+- Patient ID
+- Patient Full Name
+- Gender
+- Age
+- Admission Date
+- Patient Race
+- Wait Time
+- Department Referral
+- Admission Status
 
 <img width="917" height="497" alt="Patient Details Dashboard" src="https://github.com/user-attachments/assets/1fcd9a7a-9732-4016-bebc-2e94c82cc273" />
 
 ## 4. Key Takeaways
 
 Objective: Summarize the findings from all dashboards to provide clear and actionable insights from stakeholders.
+
 Layout:
 Descriptive analysis of each metric and visualization, including patterns, anomalies, and actionable recommendations to optimize emergency room operations and patients care.
 
