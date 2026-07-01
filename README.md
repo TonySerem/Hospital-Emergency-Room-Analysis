@@ -4,14 +4,15 @@ To enhance overall efficiency and provide actionable insights into Emergency roo
 ## Dashboard Preview
 ## 1. Monthly View Dashboard
 Objective: Monitor key metrics and trends on a month-by-month basis to identify patterns and areas for improvement.
+
 Layout:
-Patient Admission Status: Track admitted vs non admitted patients.
-Patient Age Distribution: Group patients by 10-year age interval.
-Department Referrals: Analyze referral trends across different departments.
-Timeliness: Measure the percentage of patients seen within 30 minutes.
-Gender Analysis: Visualize patient distribution by gender.
-Racial Demographics: Analyze patient data by race.
-Time Analysis: Assess patient volume by day and hour.
+- Patient Admission Status: Track admitted vs non admitted patients.
+- Patient Age Distribution: Group patients by 10-year age interval.
+- Department Referrals: Analyze referral trends across different departments.
+- Timeliness: Measure the percentage of patients seen within 30 minutes.
+- Gender Analysis: Visualize patient distribution by gender.
+- Racial Demographics: Analyze patient data by race.-Time Analysis: Assess patient volume by day and hour.
+- 
 Key Metrics:
 -	Number of Patients
 -	Average Wait Time
