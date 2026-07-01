@@ -111,35 +111,49 @@ The dataset reveals that high patient volumes, moderate satisfaction levels, and
 
  ## Recommendations
 - Reduce Patient Wait Times:
-- 
+  
 Review and optimize patient triage and registration processes to reduce the average wait time of 35.3 minutes.
 
 Introduce fast-track services for patients with minor conditions to improve patient flow and decrease congestion.
 
 - Improve Patient Satisfaction:
+  
 Conduct patient feedback surveys to identify the main causes of the moderate satisfaction score (5.0/10).
+
 Enhance communication by providing patients with regular updates on expected waiting times and treatment progress.
 
 - Optimize Staffing During Peak Periods:
+  
 Increase staffing levels on Mondays, Tuesdays, and Saturdays, as well as during the busiest hours (11 AM, 1 PM, 7 PM, and 11 PM).
+
 Use historical patient volume data to create demand-based staff schedules.
 
 - Strengthen Coordination with High-Demand Departments
+  
 Improve collaboration with General Practice and Orthopedics, which receive the highest number of referrals.
+
 Consider allocating additional specialists or establishing streamlined referral pathways to reduce delays.
 
 - Plan Services Around Patient Demographics:
+  
 Ensure adequate resources and services are available for adults aged 20–39 years, who represent the largest patient population.
+
 Develop targeted health education and preventive care initiatives for common conditions affecting these age groups.
 
-- Enhance Capacity Planning:
+- Enhance Capacity Planning
+  
 Since admissions and discharges occur in nearly equal proportions, maintain adequate bed availability while ensuring efficient discharge planning to prevent overcrowding.
+
 Regularly monitor occupancy rates to support effective resource allocation.
 
 - Improve Data Collection Practices:
+  
 Encourage patients to voluntarily provide demographic information, including race, to support more comprehensive analyses of healthcare utilization and equity.
+
 Periodically review data quality to ensure accurate reporting and informed decision-making.
 
 - Implement Continuous Performance Monitoring:
+  
 Develop a dashboard to track key performance indicators (KPIs) such as patient wait time, satisfaction scores, referral trends, admission rates, and patient volumes.
+
 Regular monitoring will enable hospital management to identify trends early and implement timely operational improvements.
